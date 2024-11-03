@@ -1,0 +1,25 @@
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+
+}
+
+a.selected{
+    text-decoration: underline;
+}
+main{
+color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+}
