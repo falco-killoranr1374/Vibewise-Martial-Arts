@@ -1,15 +1,14 @@
 ---
 navPages:
-- title: Home
-url: /index.html
-- title: About
-url: /about
-- title: Programs
-url: /programs
-- title: Contact
-url: /contact
+  - title: Home
+    url: /index.html
+  - title: About
+    url: /about
+  - title: Programs
+    url: /programs
+  - title: Contact
+    url: /contact
 ---
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -21,7 +20,6 @@ url: /contact
 </head>
 <body>
     <header>
-        <nav>
             <nav>
                 <ul>
                 {%- for entry in navPages %}
@@ -30,7 +28,7 @@ url: /contact
                 </li>
                 {%- endfor %}
                 </ul>
-                </nav>
+        
         </nav>
     </header>
     <main>
