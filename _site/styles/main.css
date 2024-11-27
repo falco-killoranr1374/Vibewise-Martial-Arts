@@ -1,6 +1,6 @@
 nav{
- background-color: #5FAD41;
-  
+ background-color:#5FAD41;
+ height: 98px;   
 }
 nav ul{
     
@@ -12,9 +12,9 @@ nav ul{
 nav ul li a{
     text-decoration: none;
     color: black;
-    font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 32px;
+
 }
 
 li.selected a{
