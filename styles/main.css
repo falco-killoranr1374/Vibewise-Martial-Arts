@@ -23,6 +23,11 @@ li.selected a{
 img{
     max-width: 25%;
 }
+.image-align{
+    display: flex;
+    justify-content: space-between;
+}
+
 main{
 background-color:#3A5A40;
 color: #000;
